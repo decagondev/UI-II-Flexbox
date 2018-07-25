@@ -241,9 +241,13 @@ h1, h2, h3, h4, h5 {
 
 footer {
 	display: flex;
-	height: 100px;
+	height: 300px;
 	width: 100%;
 	justify-content: space-between;
+}
+
+.foot {
+	height: 100px;
 }
 
 address {
@@ -276,6 +280,10 @@ footer p {
 	margin: 0 auto;
 	padding-left: 150px;
 
+}
+
+.ip {
+	margin-top:
 }
 
 
