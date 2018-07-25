@@ -63,4 +63,223 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+.main-header {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-content: flex-end;
+}
+
+.main-nav {
+	margin-top: 10px;
+}
+
+.main-nav a {
+	text-decoration: none;
+	color: #999;
+	font-size: 14px;
+	display: inline;
+	margin-right: 60px;
+}
+
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.cta {
+	display: flex;
+	margin: auto;
+	margin-top: 70px;
+	border-bottom: 1px solid #000;
+	padding-bottom: 80px;
+	justify-content: space-between;
+}
+
+.no-bb {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+
+
+
+.cta h1 {
+	font-size: 75px;
+	width: 350px;
+	padding: 30px;
+	padding-bottom: 15px;
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 0;
+}
+.cta-left {
+	flex-direction: column;
+}
+
+.cta-btn {
+	width: 157px;
+	height: 30px;
+	border: 1px solid #000;
+	background-color: #fff;
+	font-size: 0.9rem;
+	margin-left: 90px;
+	margin-top: 0;
+}
+
+.col-2 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+
+}
+
+.col-2-left {
+	flex-basis: 48%;
+}
+
+.col-2-right {
+	flex-basis: 49%;
+}
+
+.middle-img {
+	margin-top: 30px;
+	width: 100%;
+}
+
+.col-3 {
+	display: flex;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #000;
+	justify-content: space-around;
+}
+
+.col-3-left {
+	display: inline-block;
+}
+
+.c-box {
+	flex-basis: 32%;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+.col-2-full {
+	padding-bottom: 50px;
+	border-bottom: 1px solid #000;
+}
+
+.col-2-full h1 {
+	font-size: 1.5rem;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 50px;
+	border-bottom: 2px solid #000;
+	width: 100%
+}
+
+.grid-item {
+	width: 410px;
+	height:240px;
+	border: 1px solid #000;
+	background-color: #eee;
+	justify-content: space-between;
+	margin-bottom: 45px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	padding-left: 20px;
+	padding-right: 10px;
+	font-size: 16px;
+}
+
+.gi-left {
+	margin-right: 5px;
+}
+
+.grid-item p {
+	margin-top: 20px;
+}
+
+
+.service-btn {
+	width: 140px;
+	height: 35px;
+	border: 1px solid #000;
+	border-radius: 6px;
+	background-color: #fff;
+	font-size: 0.7rem;
+	margin-top: 20px;
+}
+
+.facts {
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-between;
+}
+
+.fact-item p {
+	padding: 40px;
+	padding-left: 0;
+	padding-top: 5px;
+	width: 470px;
+}
+
+.fact-item ul {
+	list-style-type: square;
+	margin-left: 20px;
+	font-weight: bold;
+}
+
+.fact-item ul li {
+	margin-bottom: 15px;
+}
+
+footer {
+	display: flex;
+	height: 100px;
+	width: 100%;
+	justify-content: space-between;
+}
+
+address {
+	font-size: 14px;
+	margin-top: 5px;
+	width: 150px;
+	line-height: 1.2em;
+}
+
+address span {
+	line-height: 2.1em;
+	
+}
+
+footer h2 {
+	padding-top: 50px;
+}
+
+footer p {
+	flex-shrink: 0;
+	align-self: flex-end;
+	font-size: 14px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 180px;
+}
+
+.sp {
+	margin: 0 auto;
+	padding-left: 150px;
+
+}
+
+
+
+
+
+
